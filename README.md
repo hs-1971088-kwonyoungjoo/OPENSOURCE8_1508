@@ -33,7 +33,9 @@ git remote -v
 ```
 
 로 접속 확인
+
 <img width="784" alt="스크린샷 2022-11-08 오후 4 55 43" src="https://user-images.githubusercontent.com/117619103/200506400-b464b407-8d14-4e46-932b-31065fdad55b.png">
+
 이렇게 나오면 OK
 
 
