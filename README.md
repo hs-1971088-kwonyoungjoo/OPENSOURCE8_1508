@@ -35,6 +35,7 @@ git remote -v
 로 접속 확인
 
 origin	https://github.com/hs-1971088-kwonyoungjoo/OPENSOURCE8_1508 (fetch)
+
 origin	https://github.com/hs-1971088-kwonyoungjoo/OPENSOURCE8_1508 (push)
 
 이렇게 나오면 OK
