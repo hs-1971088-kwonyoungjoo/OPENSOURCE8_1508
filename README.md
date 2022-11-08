@@ -56,3 +56,14 @@ git checkout 브렌치이름
 ```
 
 명령어로 본인 브렌치로 변경
+
+
+
+#### 5.
+
+```zsh
+git push --set-upstream origin feature/브렌치이름
+```
+
+으로 원격저장소에 본인 브렌치 추가
+
