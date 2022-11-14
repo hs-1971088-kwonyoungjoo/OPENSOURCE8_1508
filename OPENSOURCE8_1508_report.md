@@ -4,6 +4,12 @@
 
 <hr>
 
+* 11/14
+
+  1. Kochat과 koNLpy의 중복 여부 확인
+
+  2. 
+
 # 시스템 설계서
 
 ### 1.서비스
@@ -28,61 +34,63 @@
 
 ### 3. 오픈소스 소프트웨어
 
-#### 3-0. DFD
+#### </br>3-0. DFD
 
 
 
-</br>
 
-#### 3-1. Kochat
+
+#### </br>3-1. Kochat
 
 한국어 목적지향 챗봇 프레임워크
 
 
 
-</br>
 
-#### 3-2. STT
+
+#### </br>3-2. STT
 
 음성 언어를 문자데이터로 전환(Speech-to-Text)
 
 
 
-</br>
 
-#### 3-3. OpenWeather
+
+#### </br>3-3. OpenWeather
 
 날씨 정보 알려주는 통합 API
 
 
 
-</br>
 
-#### 3-4. Kakao Map Api
+
+#### </br>3-4. Kakao Map Api
 
 [kakao 지도 API](https://apis.map.kakao.com/web/)
 
+https://github.com/gyunggyung/Sejong_ITIP-
 
 
-</br>
 
-#### 3-5. 대중교통 API
+
+
+#### </br>3-5. 대중교통 API
 
 버스, 지하철의 시간표 제공
 
 
 
-</br>
 
-#### 3-6. Material Design
+
+#### </br>3-6. Material Design
 
 도서관 관련?
 
 
 
-</br>
 
-#### 3-7. koNLpy
+
+#### </br>3-7. koNLpy
 
 한국어 형태소 분석으로  문장 내의 키워드 추출
 
