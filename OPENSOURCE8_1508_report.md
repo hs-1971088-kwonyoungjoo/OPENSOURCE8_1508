@@ -20,69 +20,55 @@
 
 # 시스템 설계서
 
-### 1.서비스
+## 1.서비스
 
-#### 1-1. 개요
+### 1-1. 개요
 
 한성대 학생을 위한 통합 챗봇 서비스
 
-#### 1-2. 서비스 소개
+### 1-2. 서비스 소개
 
 교통정보, 날씨, 도서관, 식당 메뉴 등 학교생활 전반에 걸쳐 필요한 모든 정보를 한 번에 제공받을 수 있는 챗봇 서비스이다. 사용자가 채팅이나 음성 입력을 통해 필요한 정보를 요청하면 해당하는 응답을 확인할 수 있다.
 
-
-
-
-
-### </br>2. 유사 서비스
+## </br>2. 유사 서비스
 
 https://medium.com/naver-cloud-platform/%EA%B0%84%EB%8B%A8-%EC%B1%97%EB%B4%87-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EC%B1%97%EB%B4%87-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC-%EA%B8%B0%ED%9A%8D%ED%95%A0-%EB%95%8C-%EB%B0%98%EB%93%9C%EC%8B%9C-%EA%B3%A0%EB%A0%A4%ED%95%B4%EC%95%BC-%ED%95%98%EB%8A%94-4%EA%B0%80%EC%A7%80-70d66108e434
 
+## </br>3. 오픈소스 소프트웨어
+
+### </br>3-0. DFD
 
 
 
-
-### </br>3. 오픈소스 소프트웨어
-
-#### </br>3-0. DFD
-
-
-
-
-
-#### </br>3-1. Kochat
+### </br>3-1. Kochat
 
 한국어 목적지향 챗봇 프레임워크
 
 
 
-
-
-#### </br>3-2. Kospeech(STT)
+### </br>3-2. Kospeech(STT)
 
 음성 언어를 문자데이터로 전환(Speech-to-Text)
 
 
 
-
-
-#### </br>3-3. OpenWeather
+### </br>3-3. OpenWeather
 
 날씨 정보 알려주는 통합 API
 
 
 
-#### </br>3-4. Scrapy
+### </br>3-4. Scrapy
 
-##### 1. Scrapy란?
+#### 1. Scrapy란?
 
 웹 데이터 수집 가능한 오픈소스 웹 크롤링 프레임워크
 
-##### 2. Scrapy 사용목적
+#### 2. Scrapy 사용목적
 
 학교 홈페이지에 제시되어 있는 학생식당과 교직원 식당의 메뉴 정보를 저장후 활용.
 
-##### 3.Scrapy의 특징
+#### 3.Scrapy의 특징
 
 * GitHub의 스타 수 45.1k 개로, 현재까지 활발히 개발되고 있는 크롤러
 * 비동기 네트워킹 라이브러리(asynchronous networking library)인 [Twisted](https://twistedmatrix.com/trac/)를 기반으로 매우 우수한 성능 발휘.
@@ -90,28 +76,21 @@ https://medium.com/naver-cloud-platform/%EA%B0%84%EB%8B%A8-%EC%B1%97%EB%B4%87-%E
 * XPath, CSS 표현식으로 HTML 소스에서 데이터 추출 가능.
 * 미들웨어 추가나 파이프라인 연결의 용이성으로 우수한 확장성.
 * javascript 지원 불가로 인해 동적 웹페이지 정보 수집 불가.
+* 
 
-
-
-
-
-#### </br>3-5. 대중교통 API
+### </br>3-5. 대중교통 API
 
 버스, 지하철의 시간표 제공
 
 
 
-
-
-#### </br>3-6. Material Design
+### </br>3-6. Material Design
 
 도서관 관련?
 
 
 
-
-
-#### </br>3-7. koNLpy
+### </br>3-7. koNLpy
 
 한국어 형태소 분석으로  문장 내의 키워드 추출
 
