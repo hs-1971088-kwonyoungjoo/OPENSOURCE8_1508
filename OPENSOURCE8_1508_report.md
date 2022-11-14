@@ -72,33 +72,24 @@ https://medium.com/naver-cloud-platform/%EA%B0%84%EB%8B%A8-%EC%B1%97%EB%B4%87-%E
 
 
 
+#### </br>3-4. Scrapy
 
+##### 1. Scrapy란?
 
-#### </br>3-4. Kakao Map Api
+웹 데이터 수집 가능한 오픈소스 웹 크롤링 프레임워크
 
-##### 1. (오픈소스) 란?
+##### 2. Scrapy 사용목적
 
+학교 홈페이지에 제시되어 있는 학생식당과 교직원 식당의 메뉴 정보를 저장해 
 
+##### 3.Scrapy의 특징
 
-##### 2. 오픈소스
-
-
-
-[kakao 지도 API](https://apis.map.kakao.com/web/)
-
-https://github.com/gyunggyung/Sejong_ITIP-
-
-
-
-#### </br>3-5. Scrapy
-
-##### 1. (오픈소스) 란?
-
-학교 홈페이지에 제시되어 있는 학생식당과 교직원 식당의 메뉴를 제공받기 위한 
-
-
-
-##### 2. 오픈소스
+* GitHub의 스타 수 45.1k 개로, 현재까지 활발히 개발되고 있는 크롤러
+* 비동기 네트워킹 라이브러리(asynchronous networking library)인 [Twisted](https://twistedmatrix.com/trac/)를 기반으로 매우 우수한 성능 발휘.
+* 페이지 렌더링을 위해 필요한 js, image 파일 등을 조회하지 않고 지정된 URL만 조회함으로 기타 크롤러 대비 가볍고 빠른 성능 발휘.
+* XPath, CSS 표현식으로 HTML 소스에서 데이터 추출 가능.
+* 미들웨어 추가나 파이프라인 연결의 용이성으로 우수한 확장성.
+* javascript 지원 불가로 인해 동적 웹페이지 정보 수집 불가.
 
 
 
