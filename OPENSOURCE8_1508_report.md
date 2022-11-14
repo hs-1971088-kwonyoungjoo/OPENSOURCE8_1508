@@ -76,7 +76,8 @@ https://medium.com/naver-cloud-platform/%EA%B0%84%EB%8B%A8-%EC%B1%97%EB%B4%87-%E
 * XPath, CSS 표현식으로 HTML 소스에서 데이터 추출 가능.
 * 미들웨어 추가나 파이프라인 연결의 용이성으로 우수한 확장성.
 * javascript 지원 불가로 인해 동적 웹페이지 정보 수집 불가.
-* 
+
+
 
 ### </br>3-5. 대중교통 API
 
