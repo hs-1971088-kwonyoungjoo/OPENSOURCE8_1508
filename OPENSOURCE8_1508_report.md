@@ -9,18 +9,18 @@ Kochat: 한국어 목적지향 챗봇 프레임워크
 
 ## Kochat이란?
 Kochat은 한국어 전용 오픈소스 목적지향 챗봇 프레임워크이다. <br>
-목적지향 챗봇은 일정 관리, 호텔/식당/항공권 등의 예약, 음악 듣기 등 명령 전달, 콜센터 상담 등과 같은 특정된 목적을 달성하기 위해 사용된다.
+목적지향 챗봇은 일정 관리, 호텔/식당/항공권 등의 예약, 음악 듣기 등 명령 전달, 콜센터 상담 등과 같은 특정된 목적을 달성하기 위해 사용되는 챗봇을 말한다.
 
 ## Kochat을 선정한 이유
-기계학습 초보자 혹은 비전문가가 연구자들의 소스코드를 활용하여 각각의 모듈을 구현하는 것은 어려우며, 이러한 모듈을 연결하여 파이프라인을 형성하는 것도 많은 전문성을 요한다. 따라서 이들이 목적지향 챗봇을 구현할 때는 직접 모든 모듈을 구현하기보다는 챗봇 빌더나 오픈소스 프레임워크를 활용하는 것이 일반적이다. <br>
-이 중 챗봇 빌더의 경우, 대부분 질의 횟수에 따라 금액이 발생하는 과금 정책을 적용하고 있기 때문에 무료로 목적지향 챗봇을 개발하려면 오픈소스 프레임워크를 이용해야 한다. 현재까지 몇몇 오픈소스가 출시되었지만 주로 영어를 위주로 개발되어 왔고, 한국어를 처리하기 위해서는 복잡한 과정을 거쳐야만 한다. <br>
+초보자가 연구자들의 소스코드를 활용하여 챗봇을 만들 때, 각각의 모듈을 구현하는 것은 어려우며, 이러한 모듈을 연결하여 파이프라인을 형성하는 것도 많은 전문성을 요한다. 따라서 이들이 목적지향 챗봇을 구현할 때는 직접 모든 모듈을 구현하기보다는 챗봇 빌더나 오픈소스 프레임워크를 활용하는 것이 일반적이다. <br>
+이 중 챗봇 빌더의 경우, 대부분 과금 정책을 적용하고 있기 때문에 무료로 목적지향 챗봇을 개발하려면 오픈소스 프레임워크를 이용해야 한다. 현재까지 몇몇 오픈소스가 출시되었지만 주로 영어를 위주로 개발되어 왔고, 한국어를 처리하기 위해서는 복잡한 과정을 거쳐야만 한다. <br>
+Kochat은 오픈소스 챗봇 개발 프레임워크이기 때문에 머신러닝 개발자라면 누구나 무료로 한국어 챗봇을 개발할 수 있다. <br> 또한 Kochat은 일반인을 타깃으로한 챗봇빌더보다는 개발자를 타깃으로한 프레임워크로 프레임워크에 본인만의 모델을 추가할 수 있고, Loss 함수를 바꾸거나 새로운 기능을 첨가할 수 있다. <br>
 이에 따라, 한국어 전용 목적지향 챗봇 프레임워크인 Kochat을 사용하게 되었다.
 ## Kochat 프레임워크에 대해
 Kochat 은 데이터세트, 임베딩, 인텐트, 폴백, 엔티티, 슬롯필링+API, 시각화 등의 모듈로 구성된다.
 
 + 데이터 세트 모듈 <br>
-  사용자의 입력 데이터를 전처리
-하기 위한 모듈이다.
+  사용자의 입력 데이터를 전처리하기 위한 모듈이다. 사용자로부터 문장이 입력되면 네이버 맞춤 검사기를 이용하여 오탈자를 교정한 뒤, 품사를 기반으로 토큰화를 진행한다.
 + 임베딩 모듈 <br>
   데이터 전처리 이후에 임베딩 모듈을 통해 워드 임베딩을 수행한다.
 + 인텐트 모듈 <br>
@@ -39,4 +39,19 @@ Kochat 은 데이터세트, 임베딩, 인텐트, 폴백, 엔티티, 슬롯필�
 
     출처: 고현웅 외 2명. (2021). Kochat: 한국어 목적지향 챗봇 프레임워크. ACK 2021 학술발표회 논문집, 28(2), pp. 596-599.
 
-> 오픈소스 소스코드와 문서: https://github.com/hyunwoongko/kocha
+> 오픈소스 소스코드와 문서: https://github.com/hyunwoongko/kochat
+
+
+    Copyright 2020 Hyunwoong Ko.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
