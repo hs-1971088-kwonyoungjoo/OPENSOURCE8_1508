@@ -44,4 +44,4 @@ Free와 Startup plan에 한 함.<br><br>
 ***
 ### 추가할 내용
 - [ ] 오픈소스와 연관되게 DFD 그리기
-- [ ] PPT 제작
+- [x] PPT 제작
