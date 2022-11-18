@@ -151,7 +151,29 @@ BSD 3-Clause "New" or "Revised" License ([참고](https://github.com/scrapy/scra
 
 번역 오픈소스
 
-...
+# 보고서 작성 
+### 이선영
+
+<hr>
+
+### :link: 오픈소스 링크 : https://developers.naver.com/docs/papago/papago-nmt-api-reference.md
+
+### :mag: 오픈소스 이름 : 파파고
+
+### :sunny: 오픈소스 선정이유 
+* 교내에서 사용되는 챗봇이기에 해외 교환학생과 같은 외국인 학생을 위한 번역기능이 필요하다고 판단했습니다.
+
+
+### :heavy_check_mark: 오픈 소스 특징
+- 파파고는 다국어 언어 처리에 대한 네이버의 기술과 경험을 번역 엔진에 적용해 보다 정확한 번역 결과를 제공하는 서비스입니다. 파파고가 제공하는 RESTful 형태의 API를 사용하면 서비스에 번역 기능을 간단하게 적용할 수 있습니다.
+
+	- **Papago 번역**: 파파고의 인공 신경망 기반 기계 번역 기술(NMT, Neural Machine Translation)로 텍스트를 번역한 결과를 반환하는 RESTful API입니다.
+	- **언어 감지**: 입력된 텍스트의 언어를 감지해 주는 RESTful API입니다.
+	- **한글 인명-로마자 변환**: 한글로 된 이름을 로마자 표기로 변환한 결과를 반환하는 RESTful API입니다.
+
+### :bulb: 오픈소스 활용 방안
+-  STT로 추출 된 텍스트 혹은 입력된 텍스트를 kochat 프레임워크에 번역처리 과정을 거쳐 사용자에게 적합한 언어로 변환 후 최적의 답변을 제공
+	- EX) **How to go Hansung university?** 라는 질문이 입력되면 **한성대학교에 어떻게 가나요?** 로 번역되어 챗봇 프레임워크인 **kochat**에 전송하여 답변을 사용자 맞춤 언어로 변환하여 사용자에게 제공
 
 
 
