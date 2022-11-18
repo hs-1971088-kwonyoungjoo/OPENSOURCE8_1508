@@ -4,18 +4,6 @@
 
 <hr>
 
-* 11/14
-
-  1. 기능 정리 (식당메뉴, 날씨, 도서관?, 대중교통)
-  2. Kochat과 koNLpy의 중복 여부 확인
-  3. 본인 오픈소스 설명(자세히)
-
-  3. 역할 분배 (설계서, 발표ppt, 발표)
-
-
-
-
-
 </br>
 
 # 시스템 설계서
@@ -30,19 +18,21 @@
 
 교통정보, 날씨, 도서관, 식당 메뉴 등 학교생활 전반에 걸쳐 필요한 모든 정보를 한 번에 제공받을 수 있는 챗봇 서비스이다. 사용자가 채팅이나 음성 입력을 통해 필요한 정보를 요청하면 해당하는 응답을 확인할 수 있다.
 
+
+
 ## </br>2. 유사 서비스
 
 https://medium.com/naver-cloud-platform/%EA%B0%84%EB%8B%A8-%EC%B1%97%EB%B4%87-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EC%B1%97%EB%B4%87-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC-%EA%B8%B0%ED%9A%8D%ED%95%A0-%EB%95%8C-%EB%B0%98%EB%93%9C%EC%8B%9C-%EA%B3%A0%EB%A0%A4%ED%95%B4%EC%95%BC-%ED%95%98%EB%8A%94-4%EA%B0%80%EC%A7%80-70d66108e434
 
+
+
 ## </br>3. 오픈소스 소프트웨어
-
-### </br>3-0. DFD
-
-
 
 ### </br>3-1. Kochat
 
 한국어 목적지향 챗봇 프레임워크
+
+...
 
 
 
@@ -50,11 +40,15 @@ https://medium.com/naver-cloud-platform/%EA%B0%84%EB%8B%A8-%EC%B1%97%EB%B4%87-%E
 
 음성 언어를 문자데이터로 전환(Speech-to-Text)
 
+...
+
 
 
 ### </br>3-3. OpenWeather
 
 날씨 정보 알려주는 통합 API
+
+...
 
 
 
@@ -79,15 +73,19 @@ https://medium.com/naver-cloud-platform/%EA%B0%84%EB%8B%A8-%EC%B1%97%EB%B4%87-%E
 
 
 
-### </br>3-5. 대중교통 API
+### </br>3-5. ODsay LAB
 
-버스, 지하철의 시간표 제공
+대줓교통 API
+
+...
 
 
 
-### </br>3-6. Material Design
+### </br>3-6. Kakao Maps API
 
-도서관 관련?
+지도
+
+...
 
 
 
@@ -95,11 +93,29 @@ https://medium.com/naver-cloud-platform/%EA%B0%84%EB%8B%A8-%EC%B1%97%EB%B4%87-%E
 
 한국어 형태소 분석으로  문장 내의 키워드 추출
 
+...
+
+
+
+### </br> 3.8 파파고
+
+번역 오픈소스
+
+...
 
 
 
 
-## </br>4. 시나리오
+
+## </br>4. DFD
+
+...
+
+
+
+
+
+## </br>5. 시나리오
 
 * 사용자는 채팅창에서 챗봇과 대화할 준비를 한다.
 
