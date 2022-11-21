@@ -1,3 +1,5 @@
+
+
 - 설계서 12/4 최종 마감
 
 <hr>
@@ -72,13 +74,13 @@ Kochat 은 데이터세트, 임베딩, 인텐트, 폴백, 엔티티, 슬롯필�
 > 오픈소스 소스코드와 문서: https://github.com/hyunwoongko/kochat
 
     Copyright 2020 Hyunwoong Ko.
-
+    
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
-
+    
     http://www.apache.org/licenses/LICENSE-2.0
-
+    
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -214,7 +216,33 @@ BSD 3-Clause "New" or "Revised" License ([참고](https://github.com/scrapy/scra
 
 대중교통 API
 
-...
+# 보고서 작성
+
+# **<u>방경원</u>**
+
+**찾은 Open Source : 대중교통 API**
+
+**오픈 소스 이름 : ODsay LAB(Origin + Destination + Say)**
+
+**API 링크 - https://lab.odsay.com/**
+
+##### <u>**오픈소스 선정 이유 **</u>
+
+1.  **모든 Web, Mobile 환경 지원 (Web, Android, IOS)**
+2.  **전국 모든 버스, 지하철, 열차, 고속버스, 시외버스, 국내항공 전체 약 18만 개 노선데이터를 제공하고 있습니다.**
+3.  **월2회 전국 대중교통 변경사항을 반영, 업데이트 하고 있습니다.** **(DB 업데이트)**
+4.  **ODsay LAB에서는 영문, 중문(간체, 번체), 일문, 베트남어 등 다국어를 지원하고 있습니다.**
+5.  **경위도 좌표를 이용하여 별도 가공없이 모든 지도에 대중교통 정보 매칭이 가능**
+
+**활용방법 **
+
+대중교통 API를 챗봇 서비스에 접목시킬 경우 학생들의 통학 뿐 아니라 평소 이동 시 편의성을 제공할 수 있습니다. 실시간 버스 위치와 도착정보, 지하철 시간표 기능을 통해 시간 낭비를 줄이고 정류장의 위치,환승정보, 길찾기 기능 등을 통해 효율적인 동선관리가 가능합니다. 뿐만 아니라 서울 근교 외에 먼 거리에서 학교를 다니는 학생들은 시외버스나 고속버스,열차 등의 정보제공을 통해 등하교에 있어 편의기능을 제공받을 수 있습니다. 다국어 기능을 제공함으로써 외국인 학생들도 이용할 수 있습니다.
+
+ex) Q. OO번 버스가 OO정류장에 몇 분 후 도착인지 알려줘. 
+
+​	  A.  8분 후 OO번 버스가 OO정류장에 도착합니다.
+
+**활용서비스 :  Korea Transit Guide, Bixby 언제와U, 코레일 ga-G 등**
 
 ### </br>3-6. Kakao Maps API
 
@@ -232,11 +260,12 @@ BSD 3-Clause "New" or "Revised" License ([참고](https://github.com/scrapy/scra
 
 번역 오픈소스
 
-# 보고서 작성
+
 
 ### 이선영
 
 <hr>
+
 
 ### :link: 오픈소스 링크 : https://developers.naver.com/docs/papago/papago-nmt-api-reference.md
 
@@ -287,3 +316,5 @@ BSD 3-Clause "New" or "Revised" License ([참고](https://github.com/scrapy/scra
   3. 교통
 
      대중교통 시간표나 도착시간 return
+=======
+<img src="C:\Users\ruddn\AppData\Roaming\Typora\typora-user-images\image-20221117000009379.png" alt="image-20221117000009379" style="zoom:25%;" />
