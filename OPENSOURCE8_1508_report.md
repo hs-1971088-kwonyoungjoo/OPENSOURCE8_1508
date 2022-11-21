@@ -1,6 +1,4 @@
 
-- 설계서 12/4 최종 마감
-
 <hr>
 
 </br>
@@ -27,11 +25,11 @@ https://medium.com/naver-cloud-platform/%EA%B0%84%EB%8B%A8-%EC%B1%97%EB%B4%87-%E
 
 ## </br>3. 오픈소스 소프트웨어
 
-### </br>3-1. Kochat
+## </br>3-1. __Kochat__
 
 한국어 목적지향 챗봇 프레임워크
 
-### 조사자: 박수훈
+## 조사자: 박수훈
 
 ## Kochat: 한국어 목적지향 챗봇 프레임워크
 
@@ -86,9 +84,10 @@ Kochat 은 데이터세트, 임베딩, 인텐트, 폴백, 엔티티, 슬롯필�
     See the License for the specific language governing permissions and
     limitations under the License.
 
-### </br>3-2. Kospeech(STT)
+<hr>
 
 ## 박태범
+## 3-2. __Kospeech(STT)__
 
 ## STT 오픈소스 링크
 
@@ -131,12 +130,11 @@ STT는 크게 음성/언어 데이터로부터 인식 네트워크 모델을 생
 ## 라이선스
 
 Apache-2.0 라이선스
+<hr>
 
-### <br>이찬우<br>
+## 이찬우
 
----
-
-### </br>3-3. OpenWeather
+## </br>3-3. OpenWeather
 
 ### <br>:sunny: **찾은 Open-source Link** : https://openweathermap.org/api
 
@@ -177,9 +175,11 @@ Free와 Startup plan에 한 함.<br><br>
 
 ...
 
----
+<hr>
 
-### </br>3-4. Scrapy
+## 주권영
+
+## </br>3-4. __Scrapy__
 
 #### 1. 오픈소스 링크
 
@@ -215,8 +215,6 @@ BSD 3-Clause "New" or "Revised" License ([참고](https://github.com/scrapy/scra
 
 대중교통 API
 
-# 보고서 작성
-
 # **<u>방경원</u>**
 
 **찾은 Open Source : 대중교통 API**
@@ -242,18 +240,15 @@ ex) Q. OO번 버스가 OO정류장에 몇 분 후 도착인지 알려줘.
 ​	  A.  8분 후 OO번 버스가 OO정류장에 도착합니다.
 
 **활용서비스 :  Korea Transit Guide, Bixby 언제와U, 코레일 ga-G 등**
+<hr>
 
-### </br>3-6. Kakao Maps API
+## 이서영
 
-# Maps API
-
-### 이서영
+## </br>3-6. __Kakao Maps API__
 
 ## 1.	오픈소스 링크
 
 Kakao Maps: https://apis.map.kakao.com/web/
-
->>>>>>> origin/feature/SeoyoungLee
 
 ## 2.	Maps API란?
 
@@ -281,22 +276,12 @@ Kakao Maps API는 다양한 분야에서 사용될 수 있다. 지도 데이터�
 
 카카오 플랫폼 서비스 운영 정책 링크: (https://developers.kakao.com/terms/latest/ko/site-policies#prohibited-content)
 
-### </br>3-7. koNLpy
+<hr><br>
 
-한국어 형태소 분석으로 문장 내의 키워드 추출
-
-...
-
-### </br> 3.8 파파고
-
-번역 오픈소스
-=======
-
-
-### 이선영
+## 이선영
+## </br> 3.8 파파고
 
 <hr>
-
 
 ### :link: 오픈소스 링크 : https://developers.naver.com/docs/papago/papago-nmt-api-reference.md
 
@@ -348,5 +333,7 @@ Kakao Maps API는 다양한 분야에서 사용될 수 있다. 지도 데이터�
 
      대중교통 시간표나 도착시간 return
 =======
-<img src="C:\Users\ruddn\AppData\Roaming\Typora\typora-user-images\image-20221117000009379.png" alt="image-20221117000009379" style="zoom:25%;" />
-=======
+
+<!--
+<img src="C:\Users\ruddn\AppData\Roaming\Typora\typora-user-images\image-20221117000009379.png" alt="image-20221117000009379" style="zoom:25%;" /> 
+-->
