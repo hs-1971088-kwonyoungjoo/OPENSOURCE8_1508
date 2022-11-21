@@ -1,5 +1,4 @@
 
-
 - 설계서 12/4 최종 마감
 
 <hr>
@@ -246,9 +245,41 @@ ex) Q. OO번 버스가 OO정류장에 몇 분 후 도착인지 알려줘.
 
 ### </br>3-6. Kakao Maps API
 
-지도
+# Maps API
 
-...
+### 이서영
+
+## 1.	오픈소스 링크
+
+Kakao Maps: https://apis.map.kakao.com/web/
+
+>>>>>>> origin/feature/SeoyoungLee
+
+## 2.	Maps API란?
+
+API는 Application Program Interface의 약자로서 개발을 도와주는 도구이다. 구글, 페이스북, 네이버, 카카오 등 다양한 기업에서는 API를 지원하고 있다. 
+API 제공 회사에서 축적한 지도 관련 데이터들을 이용하면 지도 데이터와 지도를 앱에 띄울 수 있는데, 이러한 코드들과 코드들을 사용할 수 있게 연결해주는 것을 Maps API라고 한다.
+Maps API는 지도 어플리케이션 내에 사용하기 위한 인터페이스를 제공하고, 그 외에도 마커, 레이아웃, 지도 타입 등 다양한 기능들을 제공하고 있다. 
+
+## 3.	Kakao Maps API 선정 이유
+
+우리는 한성대학교 전용 챗봇을 위해 오픈소스를 사용하기 때문에 한정된 지역의 지도 정보만을 필요로 한다. 
+그렇기에 구글보다는 학생들의 접근성이 더 높은 카카오 기업의 API를 사용하게 되었고, 
+챗봇 개발을 가정하였을 때 카카오톡과 연결하여 서비스 제공을 할 가능성이 높기에 Kakao Maps API를 선정하였다.
+
+간단 요약: 한성대학교 주변 지도 데이터만 요구하기 때문에, 학생들의 접근성이 더 높고 다른 어플리케이션과 연동하기 쉬운 API를 이용하였다. 
+
+## 4.	Kakao Maps API 기술
+
+Kakao Maps API를 사용하기 위해서는 카카오에서 발급해주는 API Key가 필요하다. KEY를 발급받은 후 Javascript를 이용하여 원하는 지도의 기능을 구현시킬 수 있다. Kakao Maps는 기본적인 지도 외에도 길찾기나 로드뷰, 원하는 위치에 원하는 컨텐츠를 표시하는 등 다양한 기능들을 추가할 수 있다. 그리고 Kakao Maps는 Web Page 뿐만 아니라 Android나 Ios에서의 기능도 지원하고 있어 이를 이용한 다양한 어플리케이션 개발이 가능하다. 
+
+## 5.	Kakao Maps API 활용 분야
+
+Kakao Maps API는 다양한 분야에서 사용될 수 있다. 지도 데이터를 사용하여 원하는 지역 주변의 다양한 정보들을 쉽게 얻을 수 있고 지도 고유의 기능을 이용하여 길찾기 및 즐겨찾기 등을 제공할 수 있다. 이러한 API를 한성대학교 챗봇에 추가한다면 학생들에게 한성대학교 주변 맛집들의 위치와 다양한 정보들을 제공할 수 있고, 현재 있는 위치와 원하는 학교 건물 및 학교 근처 장소까지 손쉽게 찾을 수 있게 지도를 표시해줄 수 있다. 
+
+## 6.	Kakao Maps API License 
+
+카카오 플랫폼 서비스 운영 정책 링크: (https://developers.kakao.com/terms/latest/ko/site-policies#prohibited-content)
 
 ### </br>3-7. koNLpy
 
@@ -259,7 +290,7 @@ ex) Q. OO번 버스가 OO정류장에 몇 분 후 도착인지 알려줘.
 ### </br> 3.8 파파고
 
 번역 오픈소스
-
+=======
 
 
 ### 이선영
@@ -318,3 +349,4 @@ ex) Q. OO번 버스가 OO정류장에 몇 분 후 도착인지 알려줘.
      대중교통 시간표나 도착시간 return
 =======
 <img src="C:\Users\ruddn\AppData\Roaming\Typora\typora-user-images\image-20221117000009379.png" alt="image-20221117000009379" style="zoom:25%;" />
+=======
