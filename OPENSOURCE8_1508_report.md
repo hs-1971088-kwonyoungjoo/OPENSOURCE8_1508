@@ -25,14 +25,26 @@ https://medium.com/naver-cloud-platform/%EA%B0%84%EB%8B%A8-%EC%B1%97%EB%B4%87-%E
 
 ## </br>3. 오픈소스 소프트웨어
 
-## </br>3-1. __Kochat__
+## </br>3-1. __React Native__
+## React Native
+React Native는 페이브북이 개발한 오픈 소스 모바일 애플리케이션 프레임워크이다.
+## React Native 선정 이유
+React Native는 React의 선언형 UI 프레임워크를 iOS 및 Android에 제공한다. React Native를 사용하면 기본 UI 컨트롤을 사용하고 기본 플랫폼에 대한 전체 액세스 권한을 갖는다.
+## React Native의 특징
+* React를 사용하면 대화형 UI를 쉽게 만들 수 있다. 선언적 보기를 사용하면 코드를 더 쉽게 예측할 수 있고 디버깅 할 수 있다. 
+* 자바스크립트에 대한 변경사항은 네이티브 앱을 재구축하지 않고도 라이브로 로드할 수 있다.
+* 상태를 관리하는 캡슐화된 구성 요소를 만든 다음 복잡한 UI를 만들도록 구성합니다. 
+* iOS, Android 및 기타 플랫폼에서 코드를 재사용할 수 있다.
 
-한국어 목적지향 챗봇 프레임워크
 
-## 조사자: 박수훈
 
-## Kochat: 한국어 목적지향 챗봇 프레임워크
+## 라이센스
+MIT License
 
+<hr>
+
+## </br>3-2. __KoChat__
+## 박수훈
 ## Kochat이란?
 
 Kochat은 한국어 전용 오픈소스 목적지향 챗봇 프레임워크이다. <br>
@@ -86,8 +98,9 @@ Kochat 은 데이터세트, 임베딩, 인텐트, 폴백, 엔티티, 슬롯필�
 
 <hr>
 
+
+## </br>3-3. __Kospeech(STT)__
 ## 박태범
-## 3-2. __Kospeech(STT)__
 
 ## STT 오픈소스 링크
 
@@ -132,9 +145,23 @@ STT는 크게 음성/언어 데이터로부터 인식 네트워크 모델을 생
 Apache-2.0 라이선스
 <hr>
 
-## 이찬우
+## </br>3-4. MariaDB
+## MariaDB
+MariaDB는 오픈소스 관계형 데이터베이스 관리 시스템이다.
+## MariaDB 소개
+MariaDB는 MySQL이 오라클에 인수되면서 핵심 개발자들과 의견 차이가 생기게 되면서, 일부 개발자들이 회사를 떠나 새로운 오픈소스 데이터베이스 관리 시스템을 개발하면서 생겨났다. <br>
+MariaDB의 초창기 버전인 MariaDB 5.5은 MySQL 5.5 버전을 기반으로 개발했기 때문에 MySQL의 거의 모든 기능과 호환이 가능하다.
+## MariaDB 특징
+* MariaDB는 MySQL과 동일한 소스 코드를 기반으로 하기 때문에 MySQL과 높은 호환성을 유지한다.
+* MySQL과 비교해 애플리케이션 부분 속도가 4~5천배 정도 빠르며, 성능 면에서는 최고 70%의 향상을 보인다. 
+## 라이센스
+MariaDB 서버: GPL 2.0 <br>
+MariaDB 커넥터/클라이언트: LGPL
 
-## </br>3-3. OpenWeather
+<hr>
+
+## </br>3-5. OpenWeather
+## 이찬우
 
 ### <br>:sunny: **찾은 Open-source Link** : https://openweathermap.org/api
 
@@ -177,9 +204,9 @@ Free와 Startup plan에 한 함.<br><br>
 
 <hr>
 
-## 주권영
 
-## </br>3-4. __Scrapy__
+## </br>3-6. __Scrapy__
+## 주권영
 
 #### 1. 오픈소스 링크
 
@@ -211,11 +238,11 @@ https://github.com/scrapy/scrapy
 
 BSD 3-Clause "New" or "Revised" License ([참고](https://github.com/scrapy/scrapy/blob/master/LICENSE))
 
-### </br>3-5. ODsay LAB
 
-대중교통 API
+## </br>3-7. ODsay LAB
+## 방경원
+## 대중교통 API
 
-# **<u>방경원</u>**
 
 **찾은 Open Source : 대중교통 API**
 
@@ -242,9 +269,9 @@ ex) Q. OO번 버스가 OO정류장에 몇 분 후 도착인지 알려줘.
 **활용서비스 :  Korea Transit Guide, Bixby 언제와U, 코레일 ga-G 등**
 <hr>
 
-## 이서영
 
-## </br>3-6. __Kakao Maps API__
+## </br>3-8. __Kakao Maps API__
+## 이서영
 
 ## 1.	오픈소스 링크
 
@@ -278,10 +305,9 @@ Kakao Maps API는 다양한 분야에서 사용될 수 있다. 지도 데이터�
 
 <hr><br>
 
-## 이선영
-## </br> 3.8 파파고
 
-<hr>
+## </br> 3.9 파파고
+## 이선영
 
 ### :link: 오픈소스 링크 : https://developers.naver.com/docs/papago/papago-nmt-api-reference.md
 
