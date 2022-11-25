@@ -230,9 +230,6 @@ MariaDB 커넥터/클라이언트: LGPL
 
 Free와 Startup plan에 한 함.<br><br>
 
-### **API를 이용한 Demo Web Page**
-
-...
 
 <hr>
 
@@ -364,7 +361,7 @@ Kakao Maps API는 다양한 분야에서 사용될 수 있다. 지도 데이터�
 
 ## </br>4. DFD
 
-<img src="media/DFD.jpg"></img>
+<img src="media/DFD.png"></img>
 
 ## </br>5. 시나리오
 
