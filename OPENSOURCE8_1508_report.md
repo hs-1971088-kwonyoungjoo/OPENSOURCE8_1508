@@ -123,9 +123,6 @@ React Native는 React의 선언형 UI 프레임워크를 iOS 및 Android에 제�
 MIT License
 
 <hr>
-
-</br>
-
 ## </br>3-2. __KoChat__
 #### 조사자: 박수훈
 
@@ -192,8 +189,6 @@ Kochat 은 데이터세트, 임베딩, 인텐트, 폴백, 엔티티, 슬롯필�
     limitations under the License.
 
 <hr>
-
-
 ## </br>3-3. __Kospeech(STT)__
 #### 조사자: 박태범
 
@@ -237,7 +232,7 @@ STT는 크게 음성/언어 데이터로부터 인식 네트워크 모델을 생
 
 Apache-2.0 라이선스
 <hr>
-</br>
+
 
 ## </br>3-4. MariaDB
 MariaDB는 오픈소스 관계형 데이터베이스 관리 시스템이다.
@@ -261,7 +256,6 @@ MariaDB는 챗봇이 사용자의 입력에 따라 챗봇이 응답한 수행 �
 
 MariaDB 서버: GPL 2.0   
 MariaDB 커넥터/클라이언트: LGPL
-</br>
 
 <hr>
 
@@ -310,8 +304,6 @@ Free와 Startup plan에 한 함.
 
 
 <hr>
-
-
 ## </br>3-6. __Scrapy__
 #### 조사자: 주권영
 
@@ -441,8 +433,7 @@ Kakao Maps API는 다양한 분야에서 사용될 수 있다. 지도 데이터�
 
 카카오 플랫폼 서비스 운영 정책 링크: (https://developers.kakao.com/terms/latest/ko/site-policies#prohibited-content)
 
-<hr><br>
-
+<hr>
 
 ## </br> 3-10. 파파고
 #### 조사자: 이선영
@@ -470,7 +461,7 @@ https://developers.naver.com/docs/papago/papago-nmt-api-reference.md
 
 <hr>
 
-## 4.DFD
+## </br>4.DFD
 
 <img src="media/DFD.png"></img>
 </br>
