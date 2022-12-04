@@ -113,7 +113,7 @@ React Native는 React의 선언형 UI 프레임워크를 iOS 및 Android에 제�
 MIT License
 
 <hr>
-## </br>3-2. __KoChat__
+## </br>3-2. KoChat
 
 #### 조사자: 박수훈
 
@@ -180,7 +180,7 @@ Kochat 은 데이터세트, 임베딩, 인텐트, 폴백, 엔티티, 슬롯필�
     limitations under the License.
 
 <hr>
-## </br>3-3. __Kospeech(STT)__
+## </br>3-3. Kospeech(STT)
 
 #### 조사자: 박태범
 
@@ -296,7 +296,7 @@ Free와 Startup plan에 한 함.
 
 
 <hr>
-## </br>3-6. __Scrapy__
+## </br>3-6. Scrapy
 
 #### 조사자: 주권영
 
@@ -428,7 +428,10 @@ Kakao Maps API는 다양한 분야에서 사용될 수 있다. 지도 데이터�
 
 <hr>
 
+
+
 ## </br> 3-10. 파파고
+
 #### 조사자: 이선영
 
 https://developers.naver.com/docs/papago/papago-nmt-api-reference.md
