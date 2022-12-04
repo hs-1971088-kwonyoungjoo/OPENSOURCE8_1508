@@ -113,7 +113,7 @@ React Native는 React의 선언형 UI 프레임워크를 iOS 및 Android에 제�
 MIT License
 
 <hr>
-## </br>3-2. KoChat
+## </br>3-2. __KoChat__
 
 #### 조사자: 박수훈
 
