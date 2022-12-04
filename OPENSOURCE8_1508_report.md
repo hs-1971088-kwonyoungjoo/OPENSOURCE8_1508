@@ -499,3 +499,15 @@ https://developers.naver.com/docs/papago/papago-nmt-api-reference.md
 
 - 이후 MariaDB에 저장된 데이터에서 자주 사용된 키워드를 요청하면 SQL 질의문을 통해 챗봇 사용자에게 출력한다. 
 
+</br>
+
+## 6. 작업 분배
+| 작업 분배   | 이름               |
+| ------ | -----------------------|
+| 조장 | 주권영  |
+| 발표 | 이선영  | 
+| DFD 제작 | 이찬우, 박태범 |
+| MarkDown 문서 관리 | 박수훈, 방경원  |
+| PPT 제작 | 이서영  |
+
+***
