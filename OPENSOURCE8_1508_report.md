@@ -181,6 +181,7 @@ Kochat 은 데이터세트, 임베딩, 인텐트, 폴백, 엔티티, 슬롯필�
 
 <hr>
 ## </br>3-3. __Kospeech(STT)__
+
 #### 조사자: 박태범
 
 https://github.com/sooftware/kospeech
@@ -296,6 +297,7 @@ Free와 Startup plan에 한 함.
 
 <hr>
 ## </br>3-6. __Scrapy__
+
 #### 조사자: 주권영
 
 https://github.com/scrapy/scrapy
