@@ -183,6 +183,8 @@ Kochat 은 데이터세트, 임베딩, 인텐트, 폴백, 엔티티, 슬롯필�
     limitations under the License.
 
 <hr>
+
+
 ## </br>3-3. Kospeech(STT)
 
 #### 조사자: 박태범
@@ -299,6 +301,8 @@ Free와 Startup plan에 한 함.
 
 
 <hr>
+
+
 ## </br>3-6. Scrapy
 
 #### 조사자: 주권영
